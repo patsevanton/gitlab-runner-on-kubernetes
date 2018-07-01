@@ -27,3 +27,9 @@ sudo yum install gitlab-runner
 
 https://docs.gitlab.com/runner/register/index.html
 
+4. Create namespace, configmap, deployment
+```sh
+kubectl create -f namespace-gitlab.yaml
+kubectl create -f configmap.yaml
+kubectl create -f deployment.yaml
+```
